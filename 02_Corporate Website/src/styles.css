@@ -1,0 +1,64 @@
+.bg-teal{
+    background-color: #105a5a;
+}
+.text-teal{
+    color: #105a5a;
+}
+.btn-teal {
+    background-color: #105a5a !important;
+}
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 10px;
+    width: 30px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.uiImage{
+    box-shadow: 0 0 10px #105a5a;
+    border-radius: 15px;
+}
+.t_img{
+    margin-top: -70px;
+    box-shadow: 0 0 10px #105a5a;
+}
+.t_card {
+    box-shadow: 0 0 10px #105a5a;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.t_card:hover{
+    background-color: #105a5a;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover h3 , .t_card:hover p , .t_card:hover .fab{
+    color: white !important;
+}
+
+/* ------------ Service Cards ------------ */
+.s_card {
+    box-shadow: 0 0 10px #105a5a;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.s_card:hover{
+    background-color: #105a5a;
+    transform: perspective(400px) rotateY(10deg);
+}
+.s_card:hover h3 , .s_card:hover p , .s_card:hover .fab , .s_card:hover .fa{
+    color: white !important;
+}
+
+/* -------------- Price Card ---------------- */
+.p_card{
+    box-shadow: 0 0 10px #105a5a;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.p_card:hover{
+    transform: perspective(400px) rotateY(10deg);
+}
+
+
+
+
